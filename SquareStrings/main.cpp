@@ -29,6 +29,26 @@ for (int h=1; h<=k; h++) { // h is to denote position of element being compared 
             break;
         }
 
+/*
+bool checkValid(Set<string>& dict, string word1, string word2, bool isValid)
+{
+    if (!isValid) {
+        return false;
+    }
+
+    if (word1.length() != word2.length()) {
+        cout << "The two words must be the same length." << endl;
+        return false;
+    } else if (word1 == word2) {
+        cout << "The two words must be different." << endl;
+        return false;
+    } else if (!dict.contains(word1) || !dict.contains(word2)) {
+        cout << "The two words must be found in the dictionary." << endl;
+        return false;
+    }
+    return true;
+}
+*/
 
 }
 }
