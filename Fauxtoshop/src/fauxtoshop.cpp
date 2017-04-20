@@ -189,6 +189,20 @@ static void getMouseClickLocation(int &row, int &col) {
     } while (me.getEventType() != MOUSE_CLICKED);
     row = me.getY();
     col = me.getX();
+    
+     GMouseEvent me;
+    do {
+        me = getNextEvent(MOUSE_EVENT);
+    } while (me.getEventType() != MOUSE_CLICKED);
+    row = me.getY();
+    col = me.getX();
+    
+     GMouseEvent me;
+    do {
+        me = getNextEvent(MOUSE_EVENT);
+    } while (me.getEventType() != MOUSE_CLICKED);
+    row = me.getY();
+    col = me.getX();
 }
 
 void imgScatter(GBufferedImage &img, const Grid<int> &original, int radius) {
