@@ -35,6 +35,7 @@ int             getVal(string prompt, int mode);
  *
  * TODO: rewrite this comment.
  */
+/*
 int main() {
 
     GWindow gw;
@@ -143,7 +144,7 @@ int main() {
     }
     return 0;
 }
-
+*/
 
 /* STARTER CODE HELPER FUNCTION - DO NOT EDIT
  *
