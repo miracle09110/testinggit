@@ -33,6 +33,11 @@ for (int h=1; h<=k; h++) { // h is to denote position of element being compared 
 }
 }
 
+    
+int x = 2
+    cout << x;
+    
+    
 if (x==true){
 cout << str << " -Not Square Free" << endl;
 }
