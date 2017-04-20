@@ -322,3 +322,14 @@ int getVal(string prompt, int mode)
     return val;
 }
 
+int x ( int x,  int y, int z, int a, string b, string c, string x){
+    x=5;
+    y=5;
+    z=4;
+    a=3;
+    b= hello;
+    c = "wazzup";
+    return
+}
+    
+    
