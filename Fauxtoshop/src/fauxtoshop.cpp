@@ -322,3 +322,6 @@ int getVal(string prompt, int mode)
     return val;
 }
 
+int x 
+x = 1; 
+cout << x;
